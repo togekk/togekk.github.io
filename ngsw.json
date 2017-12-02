@@ -7,7 +7,6 @@
       "installMode": "prefetch",
       "updateMode": "prefetch",
       "urls": [
-        "/favicon.ico",
         "/index.html",
         "/inline.35bbbe1fb8183b54a9d1.bundle.js",
         "/main.064a8847051c97ea78fc.bundle.js",
@@ -21,16 +20,16 @@
       "installMode": "lazy",
       "updateMode": "prefetch",
       "urls": [
-        "/assets/android-chrome-192x192.png",
-        "/assets/android-chrome-512x512.png",
-        "/assets/apple-touch-icon.png",
-        "/assets/browserconfig.xml",
-        "/assets/favicon-16x16.png",
-        "/assets/favicon-32x32.png",
-        "/assets/favicon.ico",
-        "/assets/manifest.json",
-        "/assets/mstile-150x150.png",
-        "/assets/safari-pinned-tab.svg"
+        "/assets/favicons/android-chrome-192x192.png",
+        "/assets/favicons/android-chrome-512x512.png",
+        "/assets/favicons/apple-touch-icon.png",
+        "/assets/favicons/browserconfig.xml",
+        "/assets/favicons/favicon-16x16.png",
+        "/assets/favicons/favicon-32x32.png",
+        "/assets/favicons/favicon.ico",
+        "/assets/favicons/manifest.json",
+        "/assets/favicons/mstile-150x150.png",
+        "/assets/favicons/safari-pinned-tab.svg"
       ],
       "patterns": []
     }
@@ -38,20 +37,19 @@
   "dataGroups": [],
   "hashTable": {
     "/inline.35bbbe1fb8183b54a9d1.bundle.js": "3c7ca7312691260da06d4d5f7bfa26d50de7e52a",
-    "/assets/android-chrome-192x192.png": "07e0bc26c287419690cc95ecbb9c6a69d4495a4e",
+    "/assets/favicons/android-chrome-192x192.png": "07e0bc26c287419690cc95ecbb9c6a69d4495a4e",
     "/main.064a8847051c97ea78fc.bundle.js": "4d05cac4925d2c67928f6853b93f176e17588bff",
-    "/assets/android-chrome-512x512.png": "f09d5ceb92bebbdec1e9a484a21fd6afba19562d",
+    "/assets/favicons/android-chrome-512x512.png": "f09d5ceb92bebbdec1e9a484a21fd6afba19562d",
     "/polyfills.026a9068668493734b04.bundle.js": "027ad2331626043fc816687fc3f5011e2269a975",
-    "/assets/apple-touch-icon.png": "5d6f1b03f531492785c4dd0c469fd1829f0c64a1",
+    "/assets/favicons/apple-touch-icon.png": "5d6f1b03f531492785c4dd0c469fd1829f0c64a1",
     "/styles.d41d8cd98f00b204e980.bundle.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-    "/assets/browserconfig.xml": "974aea18bda5a95802c06b80126ab1d96d91d708",
-    "/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "/assets/favicon-16x16.png": "da3fdb41c0488c1f312a3ff1d9e6ab70c605291f",
+    "/assets/favicons/browserconfig.xml": "974aea18bda5a95802c06b80126ab1d96d91d708",
     "/index.html": "393a27160adecf8dbdf265ecd12b47f8bc7e0be5",
-    "/assets/favicon-32x32.png": "bf09bddb0fc756e6d95dbbd84ec37abcfc0e869a",
-    "/assets/favicon.ico": "b91e2c465064c4701d81cd866dd9ab620ff882a6",
-    "/assets/manifest.json": "01bc7c95e009f893f5832c53577a0352d9cbb8f0",
-    "/assets/mstile-150x150.png": "cba76c9cf43f410c8626c9933063c97d6734eaa6",
-    "/assets/safari-pinned-tab.svg": "9f2625b557f7f87ea7b1cdfc60b1181df5175760"
+    "/assets/favicons/favicon-16x16.png": "da3fdb41c0488c1f312a3ff1d9e6ab70c605291f",
+    "/assets/favicons/favicon-32x32.png": "bf09bddb0fc756e6d95dbbd84ec37abcfc0e869a",
+    "/assets/favicons/favicon.ico": "b91e2c465064c4701d81cd866dd9ab620ff882a6",
+    "/assets/favicons/manifest.json": "01bc7c95e009f893f5832c53577a0352d9cbb8f0",
+    "/assets/favicons/mstile-150x150.png": "cba76c9cf43f410c8626c9933063c97d6734eaa6",
+    "/assets/favicons/safari-pinned-tab.svg": "9f2625b557f7f87ea7b1cdfc60b1181df5175760"
   }
 }
