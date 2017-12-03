@@ -7,9 +7,10 @@
       "installMode": "prefetch",
       "updateMode": "prefetch",
       "urls": [
+        "/favicon.ico",
         "/index.html",
-        "/inline.02ef1715c6d0c8c0b34d.bundle.js",
-        "/main.9d9199258efb1a3bcf85.bundle.js",
+        "/inline.51d194102ffc40b6fe3c.bundle.js",
+        "/main.b8cfaa657fefdc99774c.bundle.js",
         "/polyfills.026a9068668493734b04.bundle.js",
         "/styles.d41d8cd98f00b204e980.bundle.css"
       ],
@@ -20,36 +21,29 @@
       "installMode": "lazy",
       "updateMode": "prefetch",
       "urls": [
-        "/assets/favicons/android-chrome-192x192.png",
-        "/assets/favicons/android-chrome-512x512.png",
-        "/assets/favicons/apple-touch-icon.png",
-        "/assets/favicons/browserconfig.xml",
-        "/assets/favicons/favicon-16x16.png",
-        "/assets/favicons/favicon-32x32.png",
-        "/assets/favicons/favicon.ico",
-        "/assets/favicons/manifest.json",
-        "/assets/favicons/mstile-150x150.png",
-        "/assets/favicons/safari-pinned-tab.svg"
+        "/assets/fonts/NeilNormal.eot",
+        "/assets/fonts/NeilNormal.svg",
+        "/assets/fonts/NeilNormal.ttf",
+        "/assets/fonts/NeilNormal.woff",
+        "/assets/fonts/NeilNormal.woff2",
+        "/assets/fonts/stylesheet.css"
       ],
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
-    "/inline.02ef1715c6d0c8c0b34d.bundle.js": "4e306d68babf7589440d06acbf92ac650de50e7b",
-    "/assets/favicons/android-chrome-192x192.png": "07e0bc26c287419690cc95ecbb9c6a69d4495a4e",
-    "/main.9d9199258efb1a3bcf85.bundle.js": "541db542a2c0318c7141bc75849eb75bbe2d6c87",
-    "/assets/favicons/android-chrome-512x512.png": "f09d5ceb92bebbdec1e9a484a21fd6afba19562d",
+    "/inline.51d194102ffc40b6fe3c.bundle.js": "9f6f734674eeddf6d261b9eb2db0b80c37668ea0",
+    "/assets/fonts/NeilNormal.eot": "08faf2a3e0139db9c3c6b8a30daa4f557ca86256",
+    "/main.b8cfaa657fefdc99774c.bundle.js": "00b8e78f6439b080f877f3138ef9729ecab6eba5",
+    "/assets/fonts/NeilNormal.svg": "e64bae3989313566cbc17840f0da106f67e3fc5b",
     "/polyfills.026a9068668493734b04.bundle.js": "027ad2331626043fc816687fc3f5011e2269a975",
-    "/assets/favicons/apple-touch-icon.png": "5d6f1b03f531492785c4dd0c469fd1829f0c64a1",
+    "/assets/fonts/NeilNormal.ttf": "31e0c59fb508194370ecf109f140a3d5fe8cfa13",
     "/styles.d41d8cd98f00b204e980.bundle.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-    "/assets/favicons/browserconfig.xml": "37d0dfcbeeb1c448359989f655638ada21b91576",
-    "/index.html": "67ee46fc25cbf5d6a8080f6ca8dd052430b1594b",
-    "/assets/favicons/favicon-16x16.png": "da3fdb41c0488c1f312a3ff1d9e6ab70c605291f",
-    "/assets/favicons/favicon-32x32.png": "bf09bddb0fc756e6d95dbbd84ec37abcfc0e869a",
-    "/assets/favicons/favicon.ico": "b91e2c465064c4701d81cd866dd9ab620ff882a6",
-    "/assets/favicons/manifest.json": "33019385030e869be43cb019009ad4df7fc8c805",
-    "/assets/favicons/mstile-150x150.png": "cba76c9cf43f410c8626c9933063c97d6734eaa6",
-    "/assets/favicons/safari-pinned-tab.svg": "9f2625b557f7f87ea7b1cdfc60b1181df5175760"
+    "/assets/fonts/NeilNormal.woff": "0b5625b3601f7f4dbb3dde4a7d1ea88f16cd0fb2",
+    "/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "/assets/fonts/NeilNormal.woff2": "2773f6d65f5ad70e9681bed188a9f3335fc703ac",
+    "/index.html": "4934195066379c86c075c9a0c69d393d6519dd78",
+    "/assets/fonts/stylesheet.css": "cb94da0c4b09d4293b364b1b2368f8b1c374e5b8"
   }
 }
