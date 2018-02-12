@@ -6,8 +6,8 @@ MyCode().then(Module => {
 
     mod = Module;
     const string_object = [];
-    for (let a = 0; a < 500; a++) {
-        string_object.push(createRandomObj(5));
+    for (let a = 0; a < 1000; a++) {
+        string_object.push(createRandomObj(200));
     }
     document.write('Done generating<br>');
 
@@ -49,7 +49,7 @@ function arrayIndexOf(obj_arr, value) {
 function arrayIndexOfJS(obj_arr, value) {
     let id = -1;
     for (let i = 0; i < obj_arr.length; i++) {
-        for (let j = 0; j < Object.values(obj_arr).length; j++) {
+        for (let j = 0; j < Object.values(obj_arr[0]).length; j++) {
             if (obj_arr[i][Object.values(obj_arr)[j]] === value) {
                 id = i;
             }
