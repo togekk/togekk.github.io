@@ -27,7 +27,7 @@ int arrayIndexOf(char* arr, char* value_selected, int arr_length, int key_length
     } while (strcmp(a, value_selected) != 0 && id < arr_length * key_length * 3);
 
     if (id_found >= 0) {
-        return id_found / key_length / 3;
+        return (id_found / key_length) / 3;
     } else {
         return -1;
     }

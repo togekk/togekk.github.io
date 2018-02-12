@@ -1,4 +1,4 @@
-var MyCode = require('./string.js');                                      // import modularized 'MyCode' function
+var MyCode = require('./string.js'); // import modularized 'MyCode' function
 
 let mod;
 
@@ -31,9 +31,9 @@ MyCode().then(Module => {
 })
 
 function send_string(string) {
-    const lengthBytes = mod.lengthBytesUTF8(string) + 1;               // get string length in bytes
-    const stringOnWasmHeap = mod.getMemory(lengthBytes);               // get memory address in wasm heap
-    mod.stringToUTF8(string, stringOnWasmHeap, lengthBytes + 1);       // use 'stringToUTF8' funciton to write string in wasm heap
+    const lengthBytes = mod.lengthBytesUTF8(string) + 1; // get string length in bytes
+    const stringOnWasmHeap = mod.getMemory(lengthBytes); // get memory address in wasm heap
+    mod.stringToUTF8(string, stringOnWasmHeap, lengthBytes + 1); // use 'stringToUTF8' funciton to write string in wasm heap
     return stringOnWasmHeap;
 }
 
@@ -42,7 +42,7 @@ function arrayIndexOf(obj_arr, value) {
     const obj = JSON.stringify(obj_arr);
     const obj_heap = send_string(obj);
     const str_heap = send_string(value);
-    const id = mod._arrayIndexOf(obj_heap, str_heap, obj_arr.length, Object.keys(obj_arr).length);             // call c function with memory address
+    const id = mod._arrayIndexOf(obj_heap, str_heap, obj_arr.length, Object.keys(obj_arr[0]).length); // call c function with memory address
     return id;
 }
 
