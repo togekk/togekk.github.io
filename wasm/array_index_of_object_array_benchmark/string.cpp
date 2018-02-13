@@ -8,30 +8,33 @@ extern "C" {
 
 // get object array from javascript
 
-int arrayIndexOf(char* arr, char* value_selected, int arr_length, int key_length)
+int arrayIndexOf(char *arr, char *value_selected, int arr_length, int key_length)
 {
-    char* a;
+    char *a;
     int id = 0;
     int id_found = -1;
-    
+
     strtok(arr, "\"");
 
-    do {
+    do
+    {
 
         a = strtok(NULL, "{,\"}");
-        if (strcmp(a, value_selected) == 0) {
+        if (strcmp(a, value_selected) == 0)
+        {
             id_found = id;
         }
         id++;
 
     } while (strcmp(a, value_selected) != 0 && id < arr_length * key_length * 3);
 
-    if (id_found >= 0) {
-        return id_found / key_length / 3;
-    } else {
-        return -1;
-    }
-    
+    // if (id_found >= 0) {
+    //     return id_found / key_length / 3;
+    // } else {
+    //     return -1;
+    // }
+    return id;
+
     free(value_selected);
     free(arr);
 }
