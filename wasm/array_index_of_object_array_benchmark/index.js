@@ -7,7 +7,7 @@ MyCode().then(Module => {
     mod = Module;
     const string_object = [];
 
-    document.write('Start Generating<br>Array size:1000, Object size: 200 keys<br>');
+    document.write('Start Generating<br>Array size: 5000, Object size: 2000 keys<br>');
     window.setTimeout(function () {
         for (let a = 0; a < 5000; a++) {
             string_object.push(createRandomObj(2000));
