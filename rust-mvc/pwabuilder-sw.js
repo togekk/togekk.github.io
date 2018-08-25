@@ -1,33 +1,4 @@
-//This is the "Offline page" service worker
-
-//Install stage sets up the offline page in the cahche and opens a new cache
-self.addEventListener('install', function(event) {
-  var offlinePage = new Request('offline.html');
-  event.waitUntil(
-  fetch(offlinePage).then(function(response) {
-    return caches.open('pwabuilder-offline').then(function(cache) {
-      console.log('[PWA Builder] Cached offline page during Install'+ response.url);
-      return cache.put(offlinePage, response);
-    });
-  }));
-});
-
-//If any fetch fails, it will show the offline page.
-//Maybe this should be limited to HTML documents?
-self.addEventListener('fetch', function(event) {
-  event.respondWith(
-    fetch(event.request).catch(function(error) {
-        console.error( '[PWA Builder] Network request Failed. Serving offline page ' + error );
-        return caches.open('pwabuilder-offline').then(function(cache) {
-          return cache.match('offline.html');
-      });
-    }));
-});
-
-//This is a event that can be fired from your page to tell the SW to update the offline page
-self.addEventListener('refreshOffline', function(response) {
-  return caches.open('pwabuilder-offline').then(function(cache) {
-    console.log('[PWA Builder] Offline page updated from refreshOffline event: '+ response.url);
-    return cache.put(offlinePage, response);
-  });
-});
+parcelRequire=function(e,r,n,t){var i="function"==typeof parcelRequire&&parcelRequire,o="function"==typeof require&&require;function u(n,t){if(!r[n]){if(!e[n]){var f="function"==typeof parcelRequire&&parcelRequire;if(!t&&f)return f(n,!0);if(i)return i(n,!0);if(o&&"string"==typeof n)return o(n);var c=new Error("Cannot find module '"+n+"'");throw c.code="MODULE_NOT_FOUND",c}p.resolve=function(r){return e[n][1][r]||r};var l=r[n]=new u.Module(n);e[n][0].call(l.exports,p,l,l.exports,this)}return r[n].exports;function p(e){return u(p.resolve(e))}}u.isParcelRequire=!0,u.Module=function(e){this.id=e,this.bundle=u,this.exports={}},u.modules=e,u.cache=r,u.parent=i,u.register=function(r,n){e[r]=[function(e,r){r.exports=n},{}]};for(var f=0;f<n.length;f++)u(n[f]);if(n.length){var c=u(n[n.length-1]);"object"==typeof exports&&"undefined"!=typeof module?module.exports=c:"function"==typeof define&&define.amd?define(function(){return c}):t&&(this[t]=c)}return u}({"9zRj":[function(require,module,exports) {
+self.addEventListener("install",function(e){var n=new Request("offline.html");e.waitUntil(fetch(n).then(function(e){return caches.open("pwabuilder-offline").then(function(t){return console.log("[PWA Builder] Cached offline page during Install"+e.url),t.put(n,e)})}))}),self.addEventListener("fetch",function(e){e.respondWith(fetch(e.request).catch(function(e){return console.error("[PWA Builder] Network request Failed. Serving offline page "+e),caches.open("pwabuilder-offline").then(function(e){return e.match("offline.html")})}))}),self.addEventListener("refreshOffline",function(e){return caches.open("pwabuilder-offline").then(function(n){return console.log("[PWA Builder] Offline page updated from refreshOffline event: "+e.url),n.put(offlinePage,e)})});
+},{}]},{},["9zRj"], null)
+//# sourceMappingURL=pwabuilder-sw.map
