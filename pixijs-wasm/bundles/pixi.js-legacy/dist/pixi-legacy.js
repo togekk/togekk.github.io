@@ -1,6 +1,6 @@
 /*!
  * pixi.js-legacy - v5.0.0-alpha.3
- * Compiled Sat, 13 Oct 2018 04:33:28 UTC
+ * Compiled Sat, 13 Oct 2018 04:44:26 UTC
  *
  * pixi.js-legacy is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
@@ -472,7 +472,7 @@ var objectAssign = shouldUseNative() ? Object.assign : function (target, source)
 
 /*!
  * @pixi/polyfill - v5.0.0-alpha.3
- * Compiled Sat, 13 Oct 2018 04:33:28 UTC
+ * Compiled Sat, 13 Oct 2018 04:44:26 UTC
  *
  * @pixi/polyfill is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
@@ -1783,7 +1783,7 @@ earcut_1.default = default_1;
 
 /*!
  * @pixi/constants - v5.0.0-alpha.3
- * Compiled Sat, 13 Oct 2018 04:33:28 UTC
+ * Compiled Sat, 13 Oct 2018 04:44:26 UTC
  *
  * @pixi/constants is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
@@ -2093,7 +2093,7 @@ var constants = ({
 
 /*!
  * @pixi/settings - v5.0.0-alpha.3
- * Compiled Sat, 13 Oct 2018 04:33:28 UTC
+ * Compiled Sat, 13 Oct 2018 04:44:26 UTC
  *
  * @pixi/settings is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
@@ -3762,7 +3762,7 @@ var url = {
 
 /*!
  * @pixi/utils - v5.0.0-alpha.3
- * Compiled Sat, 13 Oct 2018 04:33:28 UTC
+ * Compiled Sat, 13 Oct 2018 04:44:26 UTC
  *
  * @pixi/utils is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
@@ -4657,7 +4657,7 @@ var utils = ({
 
 /*!
  * @pixi/math - v5.0.0-alpha.3
- * Compiled Sat, 13 Oct 2018 04:33:28 UTC
+ * Compiled Sat, 13 Oct 2018 04:44:26 UTC
  *
  * @pixi/math is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
@@ -6520,7 +6520,7 @@ var math = ({
 
 /*!
  * @pixi/display - v5.0.0-alpha.3
- * Compiled Sat, 13 Oct 2018 04:33:28 UTC
+ * Compiled Sat, 13 Oct 2018 04:44:26 UTC
  *
  * @pixi/display is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
@@ -8109,7 +8109,7 @@ var display = ({
 
 /*!
  * @pixi/accessibility - v5.0.0-alpha.3
- * Compiled Sat, 13 Oct 2018 04:33:28 UTC
+ * Compiled Sat, 13 Oct 2018 04:44:26 UTC
  *
  * @pixi/accessibility is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
@@ -8711,7 +8711,7 @@ var MiniRunner=function(name,argsLength){this.items=[];this._name=name;this.disp
 
 /*!
  * @pixi/ticker - v5.0.0-alpha.3
- * Compiled Sat, 13 Oct 2018 04:33:28 UTC
+ * Compiled Sat, 13 Oct 2018 04:44:26 UTC
  *
  * @pixi/ticker is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
@@ -9772,7 +9772,7 @@ var twiddle = {
 
 /*!
  * @pixi/core - v5.0.0-alpha.3
- * Compiled Sat, 13 Oct 2018 04:33:28 UTC
+ * Compiled Sat, 13 Oct 2018 04:44:26 UTC
  *
  * @pixi/core is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
@@ -19896,7 +19896,7 @@ var core = ({
 
 /*!
  * @pixi/app - v5.0.0-alpha.3
- * Compiled Sat, 13 Oct 2018 04:33:28 UTC
+ * Compiled Sat, 13 Oct 2018 04:44:26 UTC
  *
  * @pixi/app is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
@@ -20148,7 +20148,7 @@ var app = ({
 
 /*!
  * @pixi/extract - v5.0.0-alpha.3
- * Compiled Sat, 13 Oct 2018 04:33:28 UTC
+ * Compiled Sat, 13 Oct 2018 04:44:26 UTC
  *
  * @pixi/extract is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
@@ -20392,7 +20392,7 @@ var extract = ({
 
 /*!
  * @pixi/sprite - v5.0.0-alpha.3
- * Compiled Sat, 13 Oct 2018 04:33:28 UTC
+ * Compiled Sat, 13 Oct 2018 04:44:26 UTC
  *
  * @pixi/sprite is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
@@ -21563,7 +21563,7 @@ var sprite = ({
 
 /*!
  * @pixi/graphics - v5.0.0-alpha.3
- * Compiled Sat, 13 Oct 2018 04:33:28 UTC
+ * Compiled Sat, 13 Oct 2018 04:44:26 UTC
  *
  * @pixi/graphics is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
@@ -24168,7 +24168,7 @@ var graphics = ({
 
 /*!
  * @pixi/interaction - v5.0.0-alpha.3
- * Compiled Sat, 13 Oct 2018 04:33:28 UTC
+ * Compiled Sat, 13 Oct 2018 04:44:26 UTC
  *
  * @pixi/interaction is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
@@ -28914,7 +28914,7 @@ lib.default = default_1$1;
 
 /*!
  * @pixi/loaders - v5.0.0-alpha.3
- * Compiled Sat, 13 Oct 2018 04:33:28 UTC
+ * Compiled Sat, 13 Oct 2018 04:44:26 UTC
  *
  * @pixi/loaders is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
@@ -30730,7 +30730,7 @@ var loaders = ({
 
 /*!
  * @pixi/mesh - v5.0.0-alpha.3
- * Compiled Sat, 13 Oct 2018 04:33:28 UTC
+ * Compiled Sat, 13 Oct 2018 04:44:26 UTC
  *
  * @pixi/mesh is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
@@ -31040,7 +31040,7 @@ var mesh = ({
 
 /*!
  * @pixi/mesh-extras - v5.0.0-alpha.3
- * Compiled Sat, 13 Oct 2018 04:33:28 UTC
+ * Compiled Sat, 13 Oct 2018 04:44:26 UTC
  *
  * @pixi/mesh-extras is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
@@ -31872,7 +31872,7 @@ var meshExtras = ({
 
 /*!
  * @pixi/particles - v5.0.0-alpha.3
- * Compiled Sat, 13 Oct 2018 04:33:28 UTC
+ * Compiled Sat, 13 Oct 2018 04:44:26 UTC
  *
  * @pixi/particles is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
@@ -32857,7 +32857,7 @@ var particles = ({
 
 /*!
  * @pixi/text - v5.0.0-alpha.3
- * Compiled Sat, 13 Oct 2018 04:33:28 UTC
+ * Compiled Sat, 13 Oct 2018 04:44:26 UTC
  *
  * @pixi/text is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
@@ -35043,7 +35043,7 @@ var text = ({
 
 /*!
  * @pixi/prepare - v5.0.0-alpha.3
- * Compiled Sat, 13 Oct 2018 04:33:28 UTC
+ * Compiled Sat, 13 Oct 2018 04:44:26 UTC
  *
  * @pixi/prepare is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
@@ -35738,7 +35738,7 @@ var prepare = ({
 
 /*!
  * @pixi/sprite-animated - v5.0.0-alpha.3
- * Compiled Sat, 13 Oct 2018 04:33:28 UTC
+ * Compiled Sat, 13 Oct 2018 04:44:26 UTC
  *
  * @pixi/sprite-animated is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
@@ -36171,7 +36171,7 @@ var spriteAnimated = ({
 
 /*!
  * @pixi/spritesheet - v5.0.0-alpha.3
- * Compiled Sat, 13 Oct 2018 04:33:28 UTC
+ * Compiled Sat, 13 Oct 2018 04:44:26 UTC
  *
  * @pixi/spritesheet is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
@@ -36591,7 +36591,7 @@ var spritesheet = ({
 
 /*!
  * @pixi/sprite-tiling - v5.0.0-alpha.3
- * Compiled Sat, 13 Oct 2018 04:33:28 UTC
+ * Compiled Sat, 13 Oct 2018 04:44:26 UTC
  *
  * @pixi/sprite-tiling is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
@@ -37095,7 +37095,7 @@ var spriteTiling = ({
 
 /*!
  * @pixi/text-bitmap - v5.0.0-alpha.3
- * Compiled Sat, 13 Oct 2018 04:33:28 UTC
+ * Compiled Sat, 13 Oct 2018 04:44:26 UTC
  *
  * @pixi/text-bitmap is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
@@ -37913,7 +37913,7 @@ var textBitmap = ({
 
 /*!
  * @pixi/fragments - v5.0.0-alpha.3
- * Compiled Sat, 13 Oct 2018 04:33:28 UTC
+ * Compiled Sat, 13 Oct 2018 04:44:26 UTC
  *
  * @pixi/fragments is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
@@ -37924,7 +37924,7 @@ var defaultFilter = "attribute vec2 aVertexPosition;\r\n\r\nuniform mat3 project
 
 /*!
  * @pixi/filter-alpha - v5.0.0-alpha.3
- * Compiled Sat, 13 Oct 2018 04:33:28 UTC
+ * Compiled Sat, 13 Oct 2018 04:44:26 UTC
  *
  * @pixi/filter-alpha is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
@@ -37987,7 +37987,7 @@ var AlphaFilter = (function (Filter$$1) {
 
 /*!
  * @pixi/filter-blur - v5.0.0-alpha.3
- * Compiled Sat, 13 Oct 2018 04:33:28 UTC
+ * Compiled Sat, 13 Oct 2018 04:44:26 UTC
  *
  * @pixi/filter-blur is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
@@ -38439,7 +38439,7 @@ var BlurFilter = (function (Filter$$1) {
 
 /*!
  * @pixi/filter-color-matrix - v5.0.0-alpha.3
- * Compiled Sat, 13 Oct 2018 04:33:28 UTC
+ * Compiled Sat, 13 Oct 2018 04:44:26 UTC
  *
  * @pixi/filter-color-matrix is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
@@ -39036,7 +39036,7 @@ ColorMatrixFilter.prototype.grayscale = ColorMatrixFilter.prototype.greyscale;
 
 /*!
  * @pixi/filter-displacement - v5.0.0-alpha.3
- * Compiled Sat, 13 Oct 2018 04:33:28 UTC
+ * Compiled Sat, 13 Oct 2018 04:44:26 UTC
  *
  * @pixi/filter-displacement is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
@@ -39125,7 +39125,7 @@ var DisplacementFilter = (function (Filter$$1) {
 
 /*!
  * @pixi/filter-fxaa - v5.0.0-alpha.3
- * Compiled Sat, 13 Oct 2018 04:33:28 UTC
+ * Compiled Sat, 13 Oct 2018 04:44:26 UTC
  *
  * @pixi/filter-fxaa is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
@@ -39163,7 +39163,7 @@ var FXAAFilter = (function (Filter$$1) {
 
 /*!
  * @pixi/filter-noise - v5.0.0-alpha.3
- * Compiled Sat, 13 Oct 2018 04:33:28 UTC
+ * Compiled Sat, 13 Oct 2018 04:44:26 UTC
  *
  * @pixi/filter-noise is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
@@ -39241,7 +39241,7 @@ var NoiseFilter = (function (Filter$$1) {
 
 /*!
  * @pixi/mixin-cache-as-bitmap - v5.0.0-alpha.3
- * Compiled Sat, 13 Oct 2018 04:33:28 UTC
+ * Compiled Sat, 13 Oct 2018 04:44:26 UTC
  *
  * @pixi/mixin-cache-as-bitmap is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
@@ -39649,7 +39649,7 @@ DisplayObject.prototype._cacheAsBitmapDestroy = function _cacheAsBitmapDestroy(o
 
 /*!
  * @pixi/mixin-get-child-by-name - v5.0.0-alpha.3
- * Compiled Sat, 13 Oct 2018 04:33:28 UTC
+ * Compiled Sat, 13 Oct 2018 04:44:26 UTC
  *
  * @pixi/mixin-get-child-by-name is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
@@ -39687,7 +39687,7 @@ Container.prototype.getChildByName = function getChildByName(name)
 
 /*!
  * @pixi/mixin-get-global-position - v5.0.0-alpha.3
- * Compiled Sat, 13 Oct 2018 04:33:28 UTC
+ * Compiled Sat, 13 Oct 2018 04:44:26 UTC
  *
  * @pixi/mixin-get-global-position is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
@@ -39723,7 +39723,7 @@ DisplayObject.prototype.getGlobalPosition = function getGlobalPosition(point, sk
 
 /*!
  * pixi.js - v5.0.0-alpha.3
- * Compiled Sat, 13 Oct 2018 04:33:28 UTC
+ * Compiled Sat, 13 Oct 2018 04:44:26 UTC
  *
  * pixi.js is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
@@ -40762,7 +40762,7 @@ if (typeof window !== 'undefined')
 
 /*!
  * @pixi/canvas-renderer - v5.0.0-alpha.3
- * Compiled Sat, 13 Oct 2018 04:33:28 UTC
+ * Compiled Sat, 13 Oct 2018 04:44:26 UTC
  *
  * @pixi/canvas-renderer is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
@@ -41459,7 +41459,7 @@ BaseTexture.prototype.getDrawableSource = function getDrawableSource()
 
 /*!
  * @pixi/canvas-mesh - v5.0.0-alpha.3
- * Compiled Sat, 13 Oct 2018 04:33:28 UTC
+ * Compiled Sat, 13 Oct 2018 04:44:26 UTC
  *
  * @pixi/canvas-mesh is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
@@ -41932,7 +41932,7 @@ Mesh.prototype._renderCanvas = function _renderCanvas(renderer)
 
 /*!
  * @pixi/canvas-graphics - v5.0.0-alpha.3
- * Compiled Sat, 13 Oct 2018 04:33:28 UTC
+ * Compiled Sat, 13 Oct 2018 04:44:26 UTC
  *
  * @pixi/canvas-graphics is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
@@ -42277,7 +42277,7 @@ Graphics.prototype._renderCanvas = function _renderCanvas(renderer)
 
 /*!
  * @pixi/canvas-sprite - v5.0.0-alpha.3
- * Compiled Sat, 13 Oct 2018 04:33:28 UTC
+ * Compiled Sat, 13 Oct 2018 04:44:26 UTC
  *
  * @pixi/canvas-sprite is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
@@ -42739,7 +42739,7 @@ Sprite.prototype._renderCanvas = function _renderCanvas(renderer)
 
 /*!
  * @pixi/canvas-extract - v5.0.0-alpha.3
- * Compiled Sat, 13 Oct 2018 04:33:28 UTC
+ * Compiled Sat, 13 Oct 2018 04:44:26 UTC
  *
  * @pixi/canvas-extract is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
@@ -42916,7 +42916,7 @@ var canvasExtract = ({
 
 /*!
  * @pixi/canvas-prepare - v5.0.0-alpha.3
- * Compiled Sat, 13 Oct 2018 04:33:28 UTC
+ * Compiled Sat, 13 Oct 2018 04:44:26 UTC
  *
  * @pixi/canvas-prepare is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
@@ -43020,7 +43020,7 @@ var canvasPrepare = ({
 
 /*!
  * @pixi/canvas-sprite-tiling - v5.0.0-alpha.3
- * Compiled Sat, 13 Oct 2018 04:33:28 UTC
+ * Compiled Sat, 13 Oct 2018 04:44:26 UTC
  *
  * @pixi/canvas-sprite-tiling is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
@@ -43113,7 +43113,7 @@ TilingSprite.prototype._renderCanvas = function _renderCanvas(renderer)
 
 /*!
  * @pixi/canvas-particles - v5.0.0-alpha.3
- * Compiled Sat, 13 Oct 2018 04:33:28 UTC
+ * Compiled Sat, 13 Oct 2018 04:44:26 UTC
  *
  * @pixi/canvas-particles is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
@@ -43244,7 +43244,7 @@ ParticleContainer.prototype.renderCanvas = function renderCanvas(renderer)
 
 /*!
  * @pixi/canvas-display - v5.0.0-alpha.3
- * Compiled Sat, 13 Oct 2018 04:33:28 UTC
+ * Compiled Sat, 13 Oct 2018 04:44:26 UTC
  *
  * @pixi/canvas-display is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license
