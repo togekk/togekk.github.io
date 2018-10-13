@@ -1,0 +1,13 @@
+<body>
+    <script src="../bundles/pixi.js/dist/pixi.js"></script>
+    <script type="text/javascript">
+        const app = new PIXI.Application({
+            width: 256,
+            height: 256,
+            transparent: true
+        });
+        const text = new PIXI.Text('FUUUUUCK');
+        app.stage.addChild(text);
+        document.body.appendChild(app.view);
+    </script>
+</body>
